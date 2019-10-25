@@ -1,4 +1,4 @@
-package com.codingtest
+package com.codingtest.nisum
 
 import org.apache.spark.sql.catalyst.encoders.RowEncoder
 import org.apache.spark.sql.{Row, SparkSession}

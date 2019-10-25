@@ -1,4 +1,4 @@
-package com.codingtest
+package com.codingtest.nisum
 
 import com.google.gson.Gson
 
