@@ -6,8 +6,10 @@ import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.logging.FileHandler;
+
 /**
- * Created by Chronos on 10/24/2019.
+ * Created by shivarajn on 10/24/2019.
  */
 public class GenerateMaterialsBill {
 
@@ -15,7 +17,6 @@ public class GenerateMaterialsBill {
 
     public static void main(String[] args) {
 
-        BasicConfigurator.configure();
         try{
             Materials m = GenerateMaterial.generateMaterial(GenerateMaterial.MaterialType.CIRCLE);
             System.out.println(m.generate());

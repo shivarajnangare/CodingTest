@@ -4,7 +4,7 @@ import org.joda.time.DateTime
 import org.junit.{Assert, Test}
 
 /**
-  * Created by Chronos on 10/25/2019.
+  * Created by shivarajn on 10/25/2019.
   */
 class NumberOfSundaysTest {
 

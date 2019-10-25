@@ -5,7 +5,9 @@ import scala.collection.mutable.ListBuffer
 import scala.io.Source
 
 /**
-  * Created by Chronos on 10/24/2019.
+  * Created by shivarajn on 10/24/2019.
+  *
+  * Referred link - https://www.rosettacode.org/wiki/Poker_hand_analyser#Scala
   */
 
 
